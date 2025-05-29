@@ -1,10 +1,12 @@
-from p1 import * 
+from p1 import *
+from p2 import *  
 import re
 
 def get_problem(problem_string):
     problem_func_mapping = {
         "1a" : p1a,
-        "1b" : p1b
+        "1b" : p1b,
+        "2a" : p2a
     }
 
     return problem_func_mapping[problem_string]
