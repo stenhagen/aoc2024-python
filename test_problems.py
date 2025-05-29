@@ -15,6 +15,9 @@ class TestProblems(unittest.TestCase):
 
     def test_2a(self):
         self.assertEqual(p2.p2a(True), 2)
+
+    def test_2b(self):
+        self.assertEqual(p2.p2b(True), 4)
         
 if __name__ == '__main__':
     unittest.main()
