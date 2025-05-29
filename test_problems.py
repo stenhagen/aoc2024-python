@@ -1,6 +1,7 @@
 import unittest
 import p1
 import p2
+import p3
 
 class TestProblems(unittest.TestCase):
 
@@ -18,6 +19,9 @@ class TestProblems(unittest.TestCase):
 
     def test_2b(self):
         self.assertEqual(p2.p2b(True), 4)
+    
+    def test_3a(self):
+        self.assertEqual(p3.p3a(True), 161)
         
 if __name__ == '__main__':
     unittest.main()

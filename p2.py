@@ -1,7 +1,5 @@
 from helper import *
-import re
 import numpy as np
-from functools import partial
 
 def is_report_safe_standard(report):
     report_orig = np.array([int(n) for n in (report + [0])[1:-1]])
