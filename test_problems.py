@@ -22,6 +22,9 @@ class TestProblems(unittest.TestCase):
     
     def test_3a(self):
         self.assertEqual(p3.p3a(True), 161)
-        
+
+    def test_3b(self):
+        self.assertEqual(p3.p3b(True), 48)
+
 if __name__ == '__main__':
     unittest.main()

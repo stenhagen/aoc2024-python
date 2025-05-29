@@ -9,7 +9,8 @@ def get_problem(problem_string):
         "1b" : p1b,
         "2a" : p2a,
         "2b" : p2b,
-        "3a" : p3a
+        "3a" : p3a,
+        "3b" : p3b
     }
 
     return problem_func_mapping[problem_string]

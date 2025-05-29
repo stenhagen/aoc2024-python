@@ -1,4 +1,5 @@
 import os
+import numpy as np
  
 def read_full_file(file_name, is_test = False, dir=None):
     data_folder = "real" if not is_test else "test"
@@ -19,3 +20,6 @@ def read_lines_file(file_name, is_test = False, dir=None):
     except FileNotFoundError:
         print(f"The file {data_path} you are attempting to read doesn't exist")
         return "n/a"
+
+def np_int_array(lst):
+    return np.array([int(l) for l in lst])
