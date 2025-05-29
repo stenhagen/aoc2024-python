@@ -3,7 +3,8 @@ import re
 
 def get_problem(problem_string):
     problem_func_mapping = {
-        "1a" : p1a
+        "1a" : p1a,
+        "1b" : p1b
     }
 
     return problem_func_mapping[problem_string]
