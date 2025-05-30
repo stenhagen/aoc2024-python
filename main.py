@@ -2,6 +2,7 @@ from p1 import *
 from p2 import *
 from p3 import *
 from p4 import *
+from p5 import *
 import re
 
 def get_problem(problem_string):
@@ -13,7 +14,8 @@ def get_problem(problem_string):
         "3a" : p3a,
         "3b" : p3b,
         "4a" : p4a,
-        "4b" : p4b
+        "4b" : p4b,
+        "5a" : p5a
     }
 
     return problem_func_mapping[problem_string]

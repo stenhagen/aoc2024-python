@@ -3,6 +3,7 @@ import p1
 import p2
 import p3
 import p4
+import p5
 
 class TestProblems(unittest.TestCase):
 
@@ -32,6 +33,9 @@ class TestProblems(unittest.TestCase):
 
     def test_4b(self):
         self.assertEqual(p4.p4b(True), 9)
+
+    def test_5a(self):
+        self.assertEqual(p5.p5a(True), 143)
 
 if __name__ == '__main__':
     unittest.main()

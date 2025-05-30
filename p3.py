@@ -1,6 +1,5 @@
 from helper import *
 import re
-import numpy as np
 from functools import partial
 
 def p3a(is_test=False, test_file_name="3ta.txt"):

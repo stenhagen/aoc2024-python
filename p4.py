@@ -1,5 +1,4 @@
 from helper import *
-import re
 import numpy as np
 from functools import partial
 
