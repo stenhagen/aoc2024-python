@@ -36,6 +36,9 @@ class TestProblems(unittest.TestCase):
 
     def test_5a(self):
         self.assertEqual(p5.p5a(True), 143)
+    
+    def test_5b(self):
+        self.assertEqual(p5.p5b(True), 123)
 
 if __name__ == '__main__':
     unittest.main()
