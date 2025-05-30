@@ -30,5 +30,8 @@ class TestProblems(unittest.TestCase):
     def test_4a(self):
         self.assertEqual(p4.p4a(True), 18)
 
+    def test_4b(self):
+        self.assertEqual(p4.p4b(True), 9)
+
 if __name__ == '__main__':
     unittest.main()
